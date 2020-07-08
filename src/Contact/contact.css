@@ -1,0 +1,116 @@
+.contactBackground{
+    width: 500px;
+    height: 57vh;
+    background: rgba(29, 29, 29, 0.9);
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+@media(max-width:570px){
+    .contactBackground{
+        width: 400px;
+    }
+}
+@media(max-width:425px){
+    .contactBackground{
+        width: 300px;
+    }
+}
+@media(max-width:310px){
+    .contactBackground{
+        width: 250px;
+    }
+}
+@media(min-height:1000px){
+    .contactBackground{
+        height: 45vh;
+    }
+}
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.exit{
+    color: white;
+    justify-content: flex-end;
+    border-radius: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.exit:hover{
+    background-color: red;
+}
+.titleC{
+    font-size: 6vh;
+    width:100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    text-decoration: underline;
+    margin-top:10px;
+}
+.paragraph{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactBar{
+    background-color: rgb(233, 78, 78);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: gold;
+    border-width: 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 90%;
+    height:10vh;
+}
+.contactBar:hover{
+    width: 97%;
+    height:13vh;
+}
+.barTitle{
+    margin: 0;
+    color: white;
+}
+@media(max-height:600px){
+    .contactBar{
+        height:6vh;
+    }
+    .barTitle{
+        font-size: 2.8vh;
+    }
+}
+.personalInfo{
+    margin: 0;
+    color: white;
+    font-size:3vh;
+}
+@media(max-width:570px){
+    .personalInfo{
+        font-size: 3vh;
+    }
+}
+@media(max-width:425px){
+    .personalInfo{
+        font-size: 2.5vh;
+    }
+}

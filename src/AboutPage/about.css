@@ -1,0 +1,101 @@
+.aboutBackground{
+    width: 90%;
+    height: 60vh;
+    background: rgba(29, 29, 29, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+@media(max-height: 570px){
+    .aboutBackground{
+        height: 50vh;
+    }
+}
+.buttonContainer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.titleA{
+    font-size: 50px;
+    width:100%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    text-decoration: underline;
+    margin-top: 0;
+}
+@media(max-width:350px){
+    .titleA{
+        font-size: 38px;
+    }
+}
+.aboutInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
+    height:85%;
+}
+.skillsTopBar{
+    width:100%;
+    background-color: gold; 
+    margin-top:-37px;
+    display:flex;
+    flex-direction:row; 
+    justify-content:space-between;
+}
+.skills{
+    text-align: center;
+    width: 220px;
+    height: 340px;
+    background-color: rgb(233, 83, 83);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skills:hover{
+    height: 400px;
+}
+.skillTitle{
+    font-size: 30px;
+    color: white;
+}
+.list{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.liItem{
+    margin: 12px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+}
+.summary{
+    text-align: start;
+    width: 320px;
+    height: 400px;
+    background-color: rgb(233, 83, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: gold;
+    color: white;
+}
+
