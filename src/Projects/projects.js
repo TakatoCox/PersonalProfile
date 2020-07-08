@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="projectsBackground">
             <div className="buttonContainer">
                 <div className="titleP">Projects</div>
-                <Link to="/PersonalProfile/">
+                <Link to="/PersonalProfile">
                     <button className="exit">X</button>
                 </Link>
             </div>

@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contactBackground">
             <div className="buttonContainer">
             <div className="titleC">Contact</div>
-                <Link to="/PersonalProfile/">
+                <Link to="/PersonalProfile">
                     <button className="exit">X</button>
                 </Link>
             </div>  

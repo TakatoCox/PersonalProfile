@@ -13,7 +13,7 @@ const About = () => {
             
             <div className="buttonContainer">
             <div className="titleA">About</div>
-                <Link to="/PersonalProfile/">
+                <Link to="/PersonalProfile">
                     <button className="exit">X</button>
                 </Link>
             </div> 
