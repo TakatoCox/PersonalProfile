@@ -8,6 +8,8 @@
     height:15vh;
     background: none;
     padding-top: 20px;
+    position: fixed;
+    top:0px;
   }
   .name{
   font-size: 4vh;

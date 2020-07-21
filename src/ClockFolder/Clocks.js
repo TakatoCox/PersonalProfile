@@ -7,10 +7,10 @@ const Clocks = () => {
 
     return ( 
         <div className="clockContainer">
-            <div className="cityClock">
+            {/* <div className="cityClock">
                 <div className="city">Honolulu</div>
                 <Time timeZone={-36000}/>
-            </div>
+            </div> */}
             <div className="cityClock">
                 <div className="city">LosAngeles</div>
                 <Time timeZone={-25200}/>
@@ -27,10 +27,10 @@ const Clocks = () => {
                 <div className="city">Mumbai</div>
                 <Time timeZone={19800}/>
             </div>
-            <div className="cityClock">
+            {/* <div className="cityClock">
                 <div className="city">Beijing</div>
                 <Time timeZone={28800}/>
-            </div>
+            </div> */}
             <div className="cityClock">
                 <div className="city">Tokyo</div>
                 <Time timeZone={32400}/>

@@ -17,7 +17,7 @@
     justify-content: flex-end;
 }
 .titleP{
-    font-size: 3vw;
+    font-size: 40px;
     width:95%;
     color: white;
     font-weight: bold;
@@ -36,11 +36,13 @@
     justify-content: space-evenly;
     align-items: center;
     overflow: auto;
+    margin-top:5px;
 }
 .project{
-    border-style: groove;
+    border-style: solid;
     border-color: rgb(233, 78, 78);
-    border-width: 10px;
+    border-width: 3px;
+    box-shadow: 5px 10px #888888;
     margin-top: 20px;
     margin-bottom: 10px;
     width: 300px;
@@ -49,9 +51,10 @@
     overflow: hidden;
 }
 .sortingGif{
+    position: relative;
     width: 300px;
     height: 200px;
-    margin-top: -10px;
+
 }
 .recipeGif{
     position: relative;
@@ -59,4 +62,12 @@
     width: 450px;
     height: 200px;
     margin-top: -10px;
+}
+@media (max-width:400px){
+    .sortingGif{
+        right: 20px;
+    }
+    .recipeGif{
+        right: 100px;
+    }
 }

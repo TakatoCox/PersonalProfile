@@ -1,13 +1,16 @@
 .clockContainer{
-    height: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 95%;
     padding-left:0%;
+    position: fixed;
+    bottom: 0px;
+    border-right: 1px solid rgba(255, 255, 255, 0.301);
+    border-left: 1px solid rgba(255, 255, 255, 0.301);
   }
   
   .cityClock{
@@ -42,10 +45,10 @@
     font-size: 40px;
     display: flex;
     border:none;
-    height:60px;
     justify-content: center;
     align-items: center;
-    width: 155px;
+    padding-left:10px;
+    padding-right:10px;
   }
   .seconds{
     color: rgb(243, 66, 66);

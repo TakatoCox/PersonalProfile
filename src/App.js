@@ -12,6 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className="animation"></div>
         <Header/>
         <Route path="/PersonalProfile" exact component={AppMain}/>
         <Route path="/about" component={About}/>

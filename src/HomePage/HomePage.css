@@ -21,6 +21,7 @@
   padding-left:10px;
   padding-right: 10px;
   margin:0;
+  position: fixed;
 }
 @media(max-width: 615px){
   .mainHeader{
@@ -32,8 +33,8 @@
     font-size:5vh;
   }
 }
-@media(max-width: 380px){
+@media(max-width: 340px){
   .mainHeader{
-    font-size:3.5vh;
+    display: 4vh;
   }
 }
