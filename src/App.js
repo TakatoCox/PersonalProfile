@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <div className="animation"></div>
+        <div className="animationContinue"></div>
         <Header/>
         <Route path="/PersonalProfile" exact component={AppMain}/>
         <Route path="/about" component={About}/>
