@@ -64,10 +64,26 @@
     top:-10px;
 }
 @media (max-width:400px){
-    .sortingGif{
+    .projectsBackground{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projectsContainer{
+        width: 90%;
+        justify-content: center;
+    }
+    .project{
+        height: 440px;
+    }
+    .gif{
         right: 20px;
+        width:120%;
     }
     .recipeGif{
         right: 100px;
+    }
+    p{
+        font-size: 10px;
     }
 }

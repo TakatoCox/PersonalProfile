@@ -61,7 +61,7 @@ const Projects = () => {
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         Observe the visual representation of various sorting algorithms.
-                        Choose an array size and a sorting algorithm, then watch the list get sorted.<br/> 
+                        User chooses an array size and a sorting algorithm<br/><br/> 
                         (HTML,CSS,JavaScript)
                     </Typography>
                     </CardContent>
