@@ -18,11 +18,39 @@ const Projects = () => {
                 </Link>
             </div>
             <div className="projectsContainer">
-                {/*project1*/}
+                {/*project*/}
+                <Card className="project">
+                    <CardActionArea>
+                        <a href="https://pickup-ranking.herokuapp.com/">
+                        <img alt="Pickup Hockey Ranking" src={require("./pickupGif.gif")} className="gif"/>
+                        </a>
+                    </CardActionArea>
+
+                    <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        Pickup Ranking
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                        Full stack website for my Monday night pickup hockey league.
+                        Keeps track of standings and stats of players/goalies
+                    </Typography>
+                    </CardContent>
+                    
+                    <CardActions style={{marginTop:"-20px"}}>
+                        <Button href="https://pickup-ranking.herokuapp.com/" size="small" style={{backgroundColor:"rgb(233, 78, 78)", color:"white"}}>
+                        Live
+                        </Button>
+                        <Button href="https://github.com/TakatoCox/PickupRanking" size="small" style={{backgroundColor:"rgb(233, 78, 78)", color:"white"}}>
+                        Source Code
+                        </Button>
+                    </CardActions>
+                </Card>
+
+                {/*project*/}
                 <Card className="project">
                     <CardActionArea>
                         <a href="https://takatocox.github.io/SortingVisual/">
-                       <img alt="sorting algorithm visualizer" src={require("./gifSorting.gif")} className="sortingGif"/>
+                       <img alt="sorting algorithm visualizer" src={require("./gifSorting.gif")} className="gif"/>
                        </a>
                     </CardActionArea>
 
@@ -46,7 +74,7 @@ const Projects = () => {
                     </CardActions>
                 </Card>
 
-                {/*project2*/}
+                {/*project*/}
                 <Card className="project">
                     <CardActionArea>
                         <a href="https://takatocox.github.io/ReactRecipes">
@@ -74,11 +102,11 @@ const Projects = () => {
                     </CardActions>
                 </Card>
 
-                {/*project3*/}
+                {/*project*/}
                 <Card className="project">
                     <CardActionArea>
                        <a href="https://takatocox.github.io/ReactFamilyCards/">
-                       <img alt="sorting algorithm visualizer" src={require("./gifFamily.gif")} className="sortingGif"/>
+                       <img alt="sorting algorithm visualizer" src={require("./gifFamily.gif")} className="gif"/>
                        </a>
                     </CardActionArea>
                     <CardContent>
@@ -102,11 +130,11 @@ const Projects = () => {
                     </CardActions>
                 </Card>
 
-                {/*project3*/}
+                {/*project*/}
                 <Card className="project">
                     <CardActionArea>
                        <a href="https://takatocox.github.io/HockeyShop/">
-                       <img alt="Hockey Shop" src={require("./gifHockeyShop.gif")} className="sortingGif"/>
+                       <img alt="Hockey Shop" src={require("./gifHockeyShop.gif")} className="gif"/>
                        </a>
                     </CardActionArea>
                     <CardContent>
