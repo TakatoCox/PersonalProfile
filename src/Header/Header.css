@@ -90,6 +90,11 @@
     font-family: serif;
     cursor: pointer;
   }
+  @media(max-width: 700px){
+    .headButton{
+        margin:0;
+    }
+  }
   @media(max-width: 500px){
     .headButton{
         font-size: 1.7vh;

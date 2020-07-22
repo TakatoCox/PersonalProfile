@@ -12,7 +12,7 @@ const About = () => {
         <div className="aboutBackground">
             
             <div className="buttonContainer">
-            <div className="titleA">About</div>
+            {/* <div className="titleA">About</div> */}
                 <Link to="/PersonalProfile">
                     <button className="exit">X</button>
                 </Link>

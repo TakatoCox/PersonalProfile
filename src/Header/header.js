@@ -27,6 +27,9 @@ const Header = () => {
 
             {/*Buttons*/}
             <div className="headButtonContainer">
+                <Link to="/PersonalProfile">
+                <button className="headButton">Home</button>
+                </Link>
                 <Link to="/about">
                 <button className="headButton">About</button>
                 </Link>

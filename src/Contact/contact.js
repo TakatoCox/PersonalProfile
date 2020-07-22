@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "./contact.css"
 
 
 const Contact = () => {
     return ( 
         <div className="contactBackground">
-            <div className="buttonContainer">
+            {/* <div className="buttonContainer">
             <div className="titleC">Contact</div>
                 <Link to="/PersonalProfile">
                     <button className="exit">X</button>
                 </Link>
-            </div>  
+            </div>   */}
             <div className="paragraph">
                 <div className="contactBar">
                     <div className="barTitle">Name:</div><br/>
