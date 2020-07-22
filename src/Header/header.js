@@ -20,6 +20,9 @@ const Header = () => {
                 <a href="https://github.com/TakatoCox">
                 <img className="icon" alt="link" src="https://img.icons8.com/nolan/48/github.png"/>   
                 </a>
+                <a href="https://docs.google.com/document/d/17x78GsGFIEqwOXpiOVHv75TfW4YqPMDjze80vF58Kdk/edit?usp=sharing">
+                <img className="icon" alt="link" src="https://img.icons8.com/ultraviolet/40/000000/resume.png"/>   
+                </a>   
             </div>
 
             {/*Buttons*/}

@@ -61,7 +61,7 @@
     right: 79px;
     width: 450px;
     height: 200px;
-    margin-top: -10px;
+    top:-10px;
 }
 @media (max-width:400px){
     .sortingGif{

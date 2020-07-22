@@ -67,13 +67,12 @@ const About = () => {
                         
                         
                         <p style={{margin:"0", height:"80%",lineHeight:"32px", padding:"5px", textIndent:"30px", marginTop:"10px"}}>
-                                I am a Computer Science student who currently 
-                            attends Simon Fraser Univeristy in British Columbia. 
+                                I am a Computer Science student, currently 
+                            attending Simon Fraser Univeristy in British Columbia. 
                             I pride myself on my work ethic. I am a reliable,
                             motivated and respectful individual. I love to
                             learn and improve myself every single day. I am
-                            a team player, which I have learned from playing
-                            ice hockey since I was little. If there is a
+                            a team player, and great communicator. If there is a
                             task that needs to get done, I will always figure out a
                             way to accomplish it.
                         </p>

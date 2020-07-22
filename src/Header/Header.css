@@ -49,17 +49,20 @@
   }
   @media(max-width: 700px){
     .icons{
-        padding: 0;
+        padding-right: 80px;
     }
   }
-  @media(max-width: 300px){
+  @media(max-width: 450px){
+    .icons{
+      padding-right: 40px;
+    }
     .icon{
         width:40px;
     }
   }
-  @media(max-width: 240px){
+  @media(max-width: 320px){
       .icon{
-          width:30px;
+        width: 30px;
       }
   }
   .headButtonContainer{
@@ -73,6 +76,7 @@
     .headButtonContainer{
         flex-direction: column;
         align-items: flex-end;
+        width: 40px;
     }
   }
   .headButton{

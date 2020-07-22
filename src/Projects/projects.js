@@ -32,7 +32,8 @@ const Projects = () => {
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         Full stack website for my Monday night pickup hockey league.
-                        Keeps track of standings and stats of players/goalies
+                        Keeps track of standings and stats of players/goalies <br/><br/>
+                        (HTML,CSS,JavaScript,NodeJS,MongoDB)
                     </Typography>
                     </CardContent>
                     
@@ -60,7 +61,8 @@ const Projects = () => {
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         Observe the visual representation of various sorting algorithms.
-                        Choose an array size and a sorting algorithm, then watch the list get sorted.<br/> (HTML,CSS,JavaScript)
+                        Choose an array size and a sorting algorithm, then watch the list get sorted.<br/> 
+                        (HTML,CSS,JavaScript)
                     </Typography>
                     </CardContent>
                     
