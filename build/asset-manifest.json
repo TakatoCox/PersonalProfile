@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/PersonalProfile/static/css/main.13cd0d3a.chunk.css",
-    "main.js": "/PersonalProfile/static/js/main.d0fc45e3.chunk.js",
-    "main.js.map": "/PersonalProfile/static/js/main.d0fc45e3.chunk.js.map",
+    "main.css": "/PersonalProfile/static/css/main.7361152f.chunk.css",
+    "main.js": "/PersonalProfile/static/js/main.34479d84.chunk.js",
+    "main.js.map": "/PersonalProfile/static/js/main.34479d84.chunk.js.map",
     "runtime-main.js": "/PersonalProfile/static/js/runtime-main.d2d1a9a1.js",
     "runtime-main.js.map": "/PersonalProfile/static/js/runtime-main.d2d1a9a1.js.map",
-    "static/js/2.1f3eb7dd.chunk.js": "/PersonalProfile/static/js/2.1f3eb7dd.chunk.js",
-    "static/js/2.1f3eb7dd.chunk.js.map": "/PersonalProfile/static/js/2.1f3eb7dd.chunk.js.map",
+    "static/js/2.52335484.chunk.js": "/PersonalProfile/static/js/2.52335484.chunk.js",
+    "static/js/2.52335484.chunk.js.map": "/PersonalProfile/static/js/2.52335484.chunk.js.map",
     "index.html": "/PersonalProfile/index.html",
-    "precache-manifest.619da704ecd892344307091cb12e818c.js": "/PersonalProfile/precache-manifest.619da704ecd892344307091cb12e818c.js",
+    "precache-manifest.f91d289cd3ec2682403c29fe5f19fc17.js": "/PersonalProfile/precache-manifest.f91d289cd3ec2682403c29fe5f19fc17.js",
     "service-worker.js": "/PersonalProfile/service-worker.js",
-    "static/css/main.13cd0d3a.chunk.css.map": "/PersonalProfile/static/css/main.13cd0d3a.chunk.css.map",
-    "static/js/2.1f3eb7dd.chunk.js.LICENSE.txt": "/PersonalProfile/static/js/2.1f3eb7dd.chunk.js.LICENSE.txt",
+    "static/css/main.7361152f.chunk.css.map": "/PersonalProfile/static/css/main.7361152f.chunk.css.map",
+    "static/js/2.52335484.chunk.js.LICENSE.txt": "/PersonalProfile/static/js/2.52335484.chunk.js.LICENSE.txt",
     "static/media/gifFamily.gif": "/PersonalProfile/static/media/gifFamily.92f11822.gif",
     "static/media/gifHockeyShop.gif": "/PersonalProfile/static/media/gifHockeyShop.3b80cfbd.gif",
     "static/media/gifRecipes.gif": "/PersonalProfile/static/media/gifRecipes.bf7d016d.gif",
     "static/media/gifSorting.gif": "/PersonalProfile/static/media/gifSorting.a6101a83.gif",
+    "static/media/pickupGif.gif": "/PersonalProfile/static/media/pickupGif.f7d64bf5.gif",
     "static/media/App.css": "/PersonalProfile/static/media/wallpaper3.59db4f7c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2d1a9a1.js",
-    "static/js/2.1f3eb7dd.chunk.js",
-    "static/css/main.13cd0d3a.chunk.css",
-    "static/js/main.d0fc45e3.chunk.js"
+    "static/js/2.52335484.chunk.js",
+    "static/css/main.7361152f.chunk.css",
+    "static/js/main.34479d84.chunk.js"
   ]
 }

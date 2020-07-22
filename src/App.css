@@ -15,7 +15,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  animation: glow 6s;
+  animation: glow 4s;
 
 }
 .animationContinue{
@@ -26,15 +26,15 @@
   top: 0px;
   left: 0px;
   animation: glowContinue 4s infinite;
-  animation-delay: 6s;
+  animation-delay: 4s;
 }
 
 @keyframes glow {
-  0% {background: rgba(0, 0, 0, 0.7);}
-  100% {background: rgba(255, 255, 255, 0.00);}
+  0% {background: rgba(0, 0, 0, 0.9);}
+  100% {background: rgba(0, 0, 0, 0.2);}
 }
 @keyframes glowContinue {
-  0% {background: rgba(0, 0, 0, 0.0);}
-  50% {background: rgba(255, 255, 255, 0.10);}
-  100% {background: rgba(0, 0, 0, 0.0);}
+  0% {background: rgba(0, 0, 0, 0.2);}
+  50% {background: rgba(255, 255, 255, 0.05);}
+  100% {background: rgba(0, 0, 0, 0.2);}
 }
