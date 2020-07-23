@@ -78,9 +78,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.skills:hover{
-    height: 400px;
-}
+
 .skillTitle{
     font-size: 30px;
     color: white;

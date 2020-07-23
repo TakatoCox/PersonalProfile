@@ -87,3 +87,8 @@
         font-size: 10px;
     }
 }
+@media (max-width:255px){
+    .project{
+        height: 500px;
+    }
+}
