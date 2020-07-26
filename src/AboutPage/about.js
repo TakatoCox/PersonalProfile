@@ -39,7 +39,7 @@ const About = () => {
                             <div style={{height:"190%", color:"gold", width:"5%", backgroundColor: "gold", borderRadius:"200%",marginTop:"-5px", marginRight:"-8px"}}>v</div> 
                         </div>
                         <StorageIcon className="bannerIcon" style={{ fontSize: 70, color:"white" }}/>
-                        <div className="skillTitle">Back End/Server</div>
+                        <div className="skillTitle">Back End</div>
                             <ul className="list" style={{marginBottom: 30}}>
                                 <li className="liItem">C++</li>
                                 <li className="liItem">C</li>
