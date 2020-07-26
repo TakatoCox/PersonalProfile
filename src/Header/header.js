@@ -27,22 +27,22 @@ const Header = () => {
 
             {/*Buttons*/}
             <ul className="headButtonContainer">
-                <li>
+                <li className="button">
                     <NavLink exact to="/PersonalProfile" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
                         Home
                     </NavLink>
                 </li>
-                <li>
+                <li className="button">
                     <NavLink to="/about" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
                         About
                     </NavLink>
                 </li>
-                <li>
+                <li className="button">
                     <NavLink to="/projects" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
                         Projects
                     </NavLink>
                 </li>
-                <li>
+                <li className="button">
                     <NavLink to="/contact" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
                         Contact
                     </NavLink> 

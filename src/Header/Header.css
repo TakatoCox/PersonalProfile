@@ -93,7 +93,7 @@
         right: 0;
     }
   }
-  li{
+  .button{
     margin: 5px;
     border: none;
     background: none;
@@ -109,20 +109,20 @@
     border-bottom: 1px solid red;
   }
   @media(max-width: 700px){
-    li{
+    .button{
         margin:0;
     }
   }
   @media(max-width: 500px){
-    li{
+    .button{
         font-size: 1.7vh;
     }
   }
   @media(max-width: 370px){
-    li{
+    .button{
       font-size:1.3vh;
     }
   }
-  li:hover{
+  .button:hover{
   font-size: 3.6vh;
   }
