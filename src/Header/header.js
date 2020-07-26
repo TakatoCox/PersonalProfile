@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return ( 
@@ -26,20 +26,28 @@ const Header = () => {
             </div>
 
             {/*Buttons*/}
-            <div className="headButtonContainer">
-                <Link to="/PersonalProfile">
-                <button className="headButton">Home</button>
-                </Link>
-                <Link to="/about">
-                <button className="headButton">About</button>
-                </Link>
-                <Link to="/projects">
-                <button className="headButton">Projects</button>
-                </Link>
-                <Link to="/contact">
-                <button className="headButton">Contact</button>
-                </Link>           
-            </div>
+            <ul className="headButtonContainer">
+                <li>
+                    <NavLink exact to="/PersonalProfile" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
+                        Home
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/about" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
+                        About
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/projects" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
+                        Projects
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contact" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
+                        Contact
+                    </NavLink> 
+                </li>          
+            </ul>
         </div>
      );
 }
