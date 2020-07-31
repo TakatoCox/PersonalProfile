@@ -28,7 +28,7 @@ const Header = () => {
             {/*Buttons*/}
             <ul className="headButtonContainer">
                 <li className="button">
-                    <NavLink exact to="/PersonalProfile" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
+                    <NavLink to="/PersonalProfile" activeClassName='current' style={{textDecoration: "none", color: "white"}}>
                         Home
                     </NavLink>
                 </li>

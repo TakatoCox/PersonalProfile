@@ -54,23 +54,24 @@
   }
   @media(max-width: 450px){
     .icons{
-      padding-right: 40px;
-    }
-    .icon{
-        width:40px;
-    }
-  }
-  @media(max-width: 320px){
-      .icons{
       padding-right: 0;
       position: fixed;
       left: 35%;
     }
+    .icon{
+        width:40px;
+    }
+    .name{
+      display: none;
+    }
+    .headButtonContainer{
+      position: fixed;
+      right: 0;
+  }
+  }
+  @media(max-width: 320px){
       .icon{
         width: 30px;
-      }
-      .name{
-        display: none;
       }
   }
   .headButtonContainer{
@@ -85,12 +86,6 @@
         flex-direction: column;
         align-items: flex-end;
         width: 40px;
-    }
-  }
-  @media(max-width: 320px){
-    .headButtonContainer{
-        position: fixed;
-        right: 0;
     }
   }
   .button{
@@ -114,13 +109,11 @@
     }
   }
   @media(max-width: 500px){
-    .button{
-        font-size: 1.7vh;
+    .headButtonContainer{
+      margin-top: 0px;
     }
-  }
-  @media(max-width: 370px){
     .button{
-      font-size:1.3vh;
+        font-size: 2.2vh;
     }
   }
   .button:hover{

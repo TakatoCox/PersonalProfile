@@ -13,7 +13,7 @@ const About = () => {
             
             <div className="buttonContainer">
             {/* <div className="titleA">About</div> */}
-                <Link to="/PersonalProfile">
+                <Link to="/PersonalProfile" style={{textDecoration: "none"}}>
                     <button className="exit">X</button>
                 </Link>
             </div> 
