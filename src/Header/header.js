@@ -27,7 +27,7 @@ const Header = () => {
             src="https://img.icons8.com/nolan/48/github.png"
           />
         </a>
-        <a href="https://docs.google.com/document/d/12NAE6bKLwK9AStNlwRNnemfZIx9ssbIMHFEdi2Bi0Os/edit?usp=sharing">
+        <a href="https://docs.google.com/document/d/1B-eZ_WuT0_GSR9GoQ7bXe-DnTjMM5tLbyLhciEc9REs/edit?usp=sharing">
           <img
             className="icon"
             alt="link"
