@@ -40,10 +40,11 @@ const About = () => {
                         </div>
                         <StorageIcon className="bannerIcon" style={{ fontSize: 70, color:"white" }}/>
                         <div className="skillTitle">Back End</div>
-                            <ul className="list" style={{marginBottom: 30}}>
+                            <ul className="list">
                                 <li className="liItem">C++</li>
                                 <li className="liItem">C</li>
                                 <li className="liItem">Node.js</li>
+                                <li className="liItem">Java</li>
                             </ul>
                     </div>
 
