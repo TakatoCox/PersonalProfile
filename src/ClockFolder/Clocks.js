@@ -24,8 +24,8 @@ const Clocks = () => {
                 <Time timeZone={3600}/>
             </div>
             <div className="cityClock">
-                <div className="city">Mumbai</div>
-                <Time timeZone={19800}/>
+                <div className="city">Beijing</div>
+                <Time timeZone={28800}/>
             </div>
             {/* <div className="cityClock">
                 <div className="city">Beijing</div>

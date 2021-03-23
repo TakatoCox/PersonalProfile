@@ -33,13 +33,13 @@ const getTime = ()=>{
       let timeDiff = 0;
       switch(props.timeZone){
         case 32400: //Japan Time
-            if(currHour >= 0 && currHour < 8)
-              timeDiff = 17
+            if(currHour >= 0 && currHour < 9)
+              timeDiff = 16
             else 
-              timeDiff = -7
+              timeDiff = -8
             break;
         case 28800: //Beijing Time
-            if(currHour >= 0 && currHour < 9)
+            if(currHour >= 0 && currHour < 10)
               timeDiff = 15
             else 
               timeDiff = -9
@@ -55,10 +55,10 @@ const getTime = ()=>{
               timeDiff=-10;
             break;
         case 3600: //London Time
-            if(currHour >= 0 && currHour < 16)
-            timeDiff = 8
+            if(currHour >= 0 && currHour < 17)
+            timeDiff = 7
             else 
-             timeDiff= -16
+             timeDiff= -17
             break;
         case -14400: //(US/Eastern)
             if(currHour >= 0 && currHour < 21)
