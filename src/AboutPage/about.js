@@ -68,10 +68,10 @@ const About = () => {
                         
                         
                         <p style={{margin:"0", height:"80%",lineHeight:"32px", padding:"5px", textIndent:"30px", marginTop:"10px"}}>
-                                I am a Computer Science student, currently 
-                            attending Simon Fraser Univeristy in British Columbia. 
-                            I pride myself on my work ethic. I am a reliable,
-                            motivated and respectful individual. I love to
+                                I am currently working as a developer intern at
+                            Frozen Mountain Software.
+                            I pride myself on my work ethic. I am reliable,
+                            motivated, and a respectful individual. I love to
                             learn and improve myself every single day. I am
                             a team player, and great communicator. If there is a
                             task that needs to get done, I will always figure out a
